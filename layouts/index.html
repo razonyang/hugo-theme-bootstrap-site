@@ -1,0 +1,32 @@
+{{ define "content" }}
+{{- $data := slice }}
+{{- with index .Site.Data .Language.Lang }}
+{{- $data = . }}
+{{- end }}
+<div class="col-12 mt-5">
+    <img src="/images/logo.webp" width="204" alt="Bootstrap" class="d-block mx-auto mb-3">
+    <div class="col-md-8 mx-auto text-center">
+        <div class="mb-4">
+            {{- with $data.badges }}
+                {{- range . }}
+                <a href="{{ .url }}" target="_blank" rel="noopener noreferrer">
+                    <img src="{{ .image }}" alt="{{ .title }}">
+                </a>
+                {{- end }}
+            {{- end }}
+        </div>
+        <h1 class="mb-5 fw-semibold">
+            Build fast, responsive sites with <a class="text-primary" target="_blank" href="https://gohugo.io/" rel="noopener noreferrer">Hugo</a> and the <a target="_blank" class="text-primary" href="https://github.com/razonyang/hugo-theme-bootstrap" rel="noopener noreferrer">HBS</a> theme
+        </h1>
+        <div class="lead mb-5">
+            {{- .Site.Params.description }}
+        </div>
+        <div>
+            <a class="btn btn-primary" href="/v1-0">
+                <i class="fas fa-fw fa-book"></i>
+                Read the docs
+            </a>
+        </div>
+    </div>
+</div>
+{{ end }}

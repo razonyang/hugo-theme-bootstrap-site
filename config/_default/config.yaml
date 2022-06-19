@@ -1,0 +1,5 @@
+title: 'Hugo Theme Bootstrap | HBS'
+theme: github.com/razonyang/hugo-theme-bootstrap
+
+build:
+  writeStats: true

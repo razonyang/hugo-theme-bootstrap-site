@@ -1,0 +1,31 @@
+- title: GitHub Stargazers
+  url: https://github.com/razonyang/hugo-theme-bootstrap/stargazers
+  image: https://img.shields.io/github/stars/razonyang/hugo-theme-bootstrap?style=flat-square
+
+- title: PageSpeed insights
+  url: https://pagespeed.web.dev/report?url=https://hbs.razonyang.com/en/
+  image: https://img.shields.io/badge/pagespeed-95%2B-success?style=flat-square
+
+- title: Backer
+  url: https://opencollective.com/hbs
+  image: https://opencollective.com/hbs/tiers/backer/badge.svg?label=backer&amp;color=brightgreen
+
+- title: Sponsor
+  url: https://opencollective.com/hbs
+  image: https://opencollective.com/hbs/tiers/sponsor/badge.svg?label=sponsor&amp;color=brightgreen
+
+- title: Hugo version
+  url: https://opencollective.com/hbs
+  image: https://img.shields.io/badge/hugo-0.97.0%2B-important?style=flat-square
+
+- title: Releases
+  url: https://github.com/razonyang/hugo-theme-bootstrap/releases
+  image: https://img.shields.io/github/release/razonyang/hugo-theme-bootstrap?style=flat-square
+
+- title: GitHub contributors
+  url: https://github.com/razonyang/hugo-theme-bootstrap/graphs/contributors
+  image: https://img.shields.io/github/contributors/razonyang/hugo-theme-bootstrap?style=flat-square
+
+- title: LICENSE
+  url: https://github.com/razonyang/hugo-theme-bootstrap/blob/master/LICENSE
+  image: https://img.shields.io/github/license/razonyang/hugo-theme-bootstrap?style=flat-square
