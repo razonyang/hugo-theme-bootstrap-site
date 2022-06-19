@@ -1,5 +1,5 @@
 [build]
-publish = "exampleSite/public"
+publish = "public"
 
 [build.environment]
 NODE_VERSION = "17.6.0"
@@ -24,12 +24,12 @@ HUGO_ENV = "production"
 
 [[redirects]]
   from = "/v1-0/*"
-  to = "https://hbs-skeleton.netlify.app/:splat"
+  to = "https://hbs-docs.netlify.app/:splat"
   status = 200
 
 [[redirects]]
   from = "/v0-8/*"
-  to = "https://hbs-skeleton.netlify.app/:splat"
+  to = "https://v0-80--hbs-docs.netlify.app/:splat"
   status = 200
 
 [[redirects]]
