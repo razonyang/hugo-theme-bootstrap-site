@@ -1,11 +1,54 @@
 main:
   - name: Docs
     identifier: docs
-  
+    weight: 100
   - name: Latest(v1.x)
     parent: docs
-    url: /v1.x
-  
+    url: /v1.x/
   - name: v0.x
     parent: docs
-    url: /v0.x
+    url: /v0.x/
+
+  - identifier: donate
+    name: Donate
+    weight: 90
+  - parent: donate
+    name: Open Collective
+    url: 'https://opencollective.com/hbs'
+    weight: 1
+  - parent: donate
+    name: Paypal
+    url: 'https://paypal.me/razonyang'
+    pre: <i class="fab fa-fw fa-paypal me-1"></i>
+    weight: 2
+  - parent: donate
+    name: Alipay
+    url: >-
+      https://raw.githubusercontent.com/razonyang/blog/main/static/images/reward/alipay.webp
+    pre: <i class="fab fa-fw fa-alipay me-1"></i>
+    weight: 3
+  - parent: donate
+    name: WeChat
+    url: >-
+      https://raw.githubusercontent.com/razonyang/blog/main/static/images/reward/wechat.webp
+    pre: <i class="fab fa-fw fa-weixin me-1"></i>
+    weight: 4
+
+  - name: Support
+    identifier: support
+    weight: 80
+  - name: Discussions
+    identifier: discussions
+    parent: support
+    url: 'https://github.com/razonyang/hugo-theme-bootstrap/discussions/new'
+    weight: 1
+  - name: Bug Report
+    identifier: repository
+    parent: support
+    url: 'https://github.com/razonyang/hugo-theme-bootstrap/issues/new?template=bug_report.md'
+    weight: 2
+  - name: Features Request
+    identifier: feature-request
+    parent: support
+    url: https://github.com/razonyang/hugo-theme-bootstrap/issues/new?template=feature_request.md
+    weight: 3
