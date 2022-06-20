@@ -2,12 +2,12 @@ main:
   - name: Docs
     identifier: docs
     weight: 100
-  - name: Latest(v1.x)
+  - name: Latest(v1)
     parent: docs
-    url: /v1.x/
-  - name: v0.x
+    url: /v1/
+  - name: v0
     parent: docs
-    url: /v0.x/
+    url: /v0/
 
   - identifier: donate
     name: Donate
