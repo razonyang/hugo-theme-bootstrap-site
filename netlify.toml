@@ -23,13 +23,13 @@ HUGO_ENV = "production"
 
 
 [[redirects]]
-  from = "/v1-0/*"
+  from = "/v1.x/*"
   to = "https://hbs-docs.netlify.app/:splat"
   status = 200
 
 [[redirects]]
-  from = "/v0-8/*"
-  to = "https://v0-80--hbs-docs.netlify.app/:splat"
+  from = "/v0.x/*"
+  to = "https://v0-x--hbs-docs.netlify.app/:splat"
   status = 200
 
 [[redirects]]

@@ -2,10 +2,10 @@ main:
   - name: Docs
     identifier: docs
   
-  - name: Latest(v1.0)
+  - name: Latest(v1.x)
     parent: docs
-    url: /v1-0
+    url: /v1.x
   
-  - name: v0.80
+  - name: v0.x
     parent: docs
-    url: /v0-80
+    url: /v0.x
