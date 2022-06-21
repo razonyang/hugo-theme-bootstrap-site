@@ -1,4 +1,9 @@
 main:
+  - identifier: home
+    url: https://hbs.razonyang.com/
+    pre: <i class="fas fa-home"></i>
+    weight: 1
+
   - name: Docs
     identifier: docs
     weight: 100
