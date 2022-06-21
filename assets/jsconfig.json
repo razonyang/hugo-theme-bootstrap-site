@@ -4,7 +4,7 @@
   "paths": {
    "*": [
     "*",
-    "../../../../../../tmp/hugo_cache/modules/filecache/modules/pkg/mod/github.com/razonyang/hugo-theme-bootstrap@v0.80.1-0.20220621085347-4c3f04e8105c/assets/*"
+    "../../../../../../tmp/hugo_cache/modules/filecache/modules/pkg/mod/github.com/razonyang/hugo-theme-bootstrap@v0.80.1-0.20220621141349-fdbc27baca13/assets/*"
    ]
   }
  }

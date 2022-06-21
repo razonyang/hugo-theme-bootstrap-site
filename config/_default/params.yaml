@@ -3,6 +3,15 @@ description: Fast, responsive, multipurpose and feature-rich Hugo theme. It is u
 
 palette: purple
 
+pwa:
+  manifest:
+    short_name: HBS
+
 topAppBar:
   social:
     github: razonyang/hugo-theme-bootstrap
+
+docsearch:
+  appId: QJSHIZ7V63
+  apiKey: ddd1e0eb4b5bc657e3a1acbcb55fa06a
+  indexName: hbs_all

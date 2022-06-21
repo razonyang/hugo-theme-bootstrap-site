@@ -3,3 +3,16 @@ theme: github.com/razonyang/hugo-theme-bootstrap
 
 build:
   writeStats: true
+
+outputs:
+  home:
+   - HTML
+   - RSS
+   - JSON
+   - MANIFEST
+
+outputFormats:
+  MANIFEST:
+    name: manifest
+    baseName: manifest
+    mediaType: application/manifest+json
