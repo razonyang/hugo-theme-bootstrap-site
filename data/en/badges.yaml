@@ -3,8 +3,8 @@
   image: https://img.shields.io/github/stars/razonyang/hugo-theme-bootstrap?style=flat-square
 
 - title: PageSpeed insights
-  url: https://pagespeed.web.dev/report?url=https://hbs.razonyang.com/en/
-  image: https://img.shields.io/badge/pagespeed-95%2B-success?style=flat-square
+  url: https://pagespeed.web.dev/report?url=https://hbs.razonyang.com/v1/en/
+  image: https://img.shields.io/badge/pagespeed-90%2B-success?style=flat-square
 
 - title: Backer
   url: https://opencollective.com/hbs
