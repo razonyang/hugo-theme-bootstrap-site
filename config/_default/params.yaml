@@ -1,7 +1,13 @@
 brand: HBS
 description: Fast, responsive, multipurpose and feature-rich Hugo theme. It is used for blog and document sites typically.
+mainSections:
+  - blog
 
 palette: purple
+
+post:
+  copyright: false
+  featuredImage: true
 
 pwa:
   manifest:
@@ -15,3 +21,6 @@ docsearch:
   appId: QJSHIZ7V63
   apiKey: ddd1e0eb4b5bc657e3a1acbcb55fa06a
   indexName: hbs_all
+
+utterances:
+  repo: razonyang/hugo-theme-bootstrap-site
