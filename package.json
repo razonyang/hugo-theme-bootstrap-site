@@ -72,9 +72,5 @@
     "webpack-cli": "^4.9.1"
   },
   "name": "hugo-theme-bootstrap-site",
-  "version": "0.1.0",
-  "scripts": {
-    "watch": "onchange -i -k '**/*.html' -- npm run dev",
-    "dev": "hugo server --themesDir=../../ --buildDrafts --disableFastRender --gc"
-  }
+  "version": "0.1.0"
 }
