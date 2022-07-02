@@ -8,11 +8,3 @@ outputs:
   home:
    - HTML
    - RSS
-   - JSON
-   - MANIFEST
-
-outputFormats:
-  MANIFEST:
-    name: manifest
-    baseName: manifest
-    mediaType: application/manifest+json
