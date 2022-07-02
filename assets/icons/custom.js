@@ -1,10 +1,21 @@
-import { faBook } from '@fortawesome/free-solid-svg-icons';
+import {
+    faArchive,
+    faArrowLeft,
+    faBook,
+    faGripLinesVertical,
+    faIcons,
+    faPlus,
+    faRocket,
+    faTachometerAlt,
+} from '@fortawesome/free-solid-svg-icons';
 // import { faAddressBook } from '@fortawesome/free-regular-svg-icons';
-// import { faAmazon, faGoogle } from '@fortawesome/free-brands-svg-icons';
+import { 
+    faBootstrap, faCss3, faSass,
+} from '@fortawesome/free-brands-svg-icons';
 
 const icons = [
-    faBook,
+    faArchive, faArrowLeft, faBook, faGripLinesVertical, faIcons, faPlus, faRocket, faTachometerAlt,
     // faAddressBook,
-    // faAmazon, faGoogle,
+    faBootstrap, faCss3, faSass,
 ];
 export default icons;

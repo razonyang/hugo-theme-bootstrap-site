@@ -1,0 +1,14 @@
+
+<div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 g-4 py-5">
+    {{- range . -}}
+    <div class="col d-flex align-items-start">
+        {{- with .icon -}}
+        <div class="bi text-muted flex-shrink-0 me-3">{{ . | safeHTML }}</div>
+        {{- end -}}
+        <div>
+            <h4 class="fw-bold mb-2">{{ .title }}</h4>
+            <p>{{ .description | markdownify }}</p>
+        </div>
+    </div>
+    {{- end -}}
+</div>

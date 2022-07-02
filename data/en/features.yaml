@@ -1,0 +1,63 @@
+- title: Fast
+  icon: <i class="fas fa-2x fa-fw fa-tachometer-alt"></i>
+  description: Google [PageSpeed Insights](https://pagespeed.web.dev/report?url=https://hbs-skeleton.netlify.app/) score is over 90.
+
+- title: Icons
+  icon: <i class="fas fa-2x fa-fw fa-icons"></i>
+  description: Custom Font Awesome Icons set.
+
+- title: Responsive
+  icon: <i class="fab fa-2x fa-fw fa-bootstrap"></i>
+  description: Built on top of Bootstrap 5.
+
+- title: Search
+  icon: <i class="fas fa-2x fa-fw fa-search"></i>
+  description: Local search and DocSearch are supported.
+
+- title: RTL
+  icon: <i class="fas fa-2x fa-fw fa-arrow-left"></i>
+  description: Support right-to-left writing languages.
+
+- title: Hugo Pipes
+  icon: <i class="fas fa-2x fa-fw fa-grip-lines-vertical"></i>
+  description: Build site with thw powerful Hugo pipes.
+
+- title: PurgeCSS
+  icon: <i class="fab fa-2x fa-fw fa-css3"></i>
+  description: Remove unused CSS.
+  
+- title: I18N
+  icon: <i class="fas fa-2x fa-fw fa-globe"></i>
+  description: English, Simplified Chinese, Traditional Chinese, Russian, German, French etc.
+  
+- title: SASS/SCSS
+  icon: <i class="fab fa-2x fa-fw fa-sass"></i>
+  description: Custom theme and Bootstrap via SASS/SCSS variables.
+
+- title: Archives
+  icon: <i class="fas fa-2x fa-fw fa-archive"></i>
+  description: Support archives pages.
+
+- title: Code Block Assistant
+  icon: <i class="fas fa-2x fa-fw fa-code"></i>
+  description: Copy code, line number, line wrap and expand.
+
+- title: Light/Dark Mode
+  icon: <i class="fas fa-2x fa-fw fa-adjust"></i>
+  description: Allow switching to light, dark or auto mode.
+
+- title: Comments Engine
+  icon: <i class="fas fa-2x fa-fw fa-comments"></i>
+  description: Support Disqus and Utterances, it's easy to customize comments engine.
+
+- title: Contact Form
+  icon: <i class="fas fa-2x fa-fw fa-envelope"></i>
+  description: Compatible with most of the backend endpoints, such as Netlify Form, GetForm.
+
+- title: Hooks
+  icon: <i class="fas fa-2x fa-fw fa-plus"></i>
+  description: Provides ability to add custom code on page.
+
+- title: PWA
+  icon: <i class="fas fa-2x fa-fw fa-rocket"></i>
+  description: Make your site installable, offline available. 

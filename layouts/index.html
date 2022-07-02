@@ -15,18 +15,18 @@
                 {{- end }}
             {{- end }}
         </div>
-        <h1 class="mb-5 fw-semibold">
+        <h1 class="mb-4 fw-semibold">
             Build fast, responsive sites with <a class="text-primary" target="_blank" href="https://gohugo.io/" rel="noopener noreferrer">Hugo</a> and the <a target="_blank" class="text-primary" href="https://github.com/razonyang/hugo-theme-bootstrap" rel="noopener noreferrer">HBS</a> theme
         </h1>
-        <div class="lead mb-5">
+        <div class="lead mb-4">
             {{- .Site.Params.description }}
         </div>
-        <div class="d-inline-flex">
+        <div class="d-inline-flex mb-4">
             <a class="btn btn-primary me-2" href="/v1/en/docs/getting-started/introduction/">
                 <i class="fas fa-fw fa-book"></i>
                 Introduction
             </a>
-            <div class="dropdown">
+            <div class="dropdown me-2">
                 <a class="btn btn-success dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
                   Installation
                 </a>
@@ -39,5 +39,6 @@
             </div>
         </div>
     </div>
+    {{- partial "features" $data.features -}}
 </div>
 {{ end }}
