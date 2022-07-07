@@ -4,41 +4,43 @@
 {{- $data = . }}
 {{- end }}
 <div class="col-12 mt-5">
-    <img src="/images/logo.webp" width="204" alt="Bootstrap" class="d-block mx-auto mb-3">
-    <div class="col-md-8 mx-auto text-center">
-        <div class="mb-4">
-            {{- with $data.badges }}
-                {{- range . }}
-                <a href="{{ .url }}" target="_blank" rel="noopener noreferrer">
-                    <img src="{{ .image }}" alt="{{ .title }}">
-                </a>
+    <div class="container">
+        <img src="/images/logo.webp" width="204" alt="Bootstrap" class="d-block mx-auto mb-3">
+        <div class="col-md-8 mx-auto text-center">
+            <div class="mb-4">
+                {{- with $data.badges }}
+                    {{- range . }}
+                    <a href="{{ .url }}" target="_blank" rel="noopener noreferrer">
+                        <img src="{{ .image }}" alt="{{ .title }}">
+                    </a>
+                    {{- end }}
                 {{- end }}
-            {{- end }}
-        </div>
-        <h1 class="mb-4 fw-semibold">
-            Build fast, responsive sites with <a class="text-primary" target="_blank" href="https://gohugo.io/" rel="noopener noreferrer">Hugo</a> and the <a target="_blank" class="text-primary" href="https://github.com/razonyang/hugo-theme-bootstrap" rel="noopener noreferrer">HBS</a> theme
-        </h1>
-        <div class="lead mb-4">
-            {{- .Site.Params.description }}
-        </div>
-        <div class="d-inline-flex mb-4">
-            <a class="btn btn-primary me-2" href="/v1/en/docs/getting-started/introduction/">
-                <i class="fas fa-fw fa-book"></i>
-                Introduction
-            </a>
-            <div class="dropdown me-2">
-                <a class="btn btn-success dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
-                  Installation
+            </div>
+            <h1 class="mb-4 fw-semibold">
+                Build fast, responsive sites with <a class="text-primary" target="_blank" href="https://gohugo.io/" rel="noopener noreferrer">Hugo</a> and the <a target="_blank" class="text-primary" href="https://github.com/razonyang/hugo-theme-bootstrap" rel="noopener noreferrer">HBS</a> theme
+            </h1>
+            <div class="lead mb-4">
+                {{- .Site.Params.description }}
+            </div>
+            <div class="d-inline-flex mb-4">
+                <a class="btn btn-primary me-2" href="/v1/en/docs/getting-started/introduction/">
+                    <i class="fas fa-fw fa-book"></i>
+                    Introduction
                 </a>
-              
-                <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-                  <li><a class="dropdown-item" target="_blank" href="https://github.com/razonyang/hugo-theme-bootstrap-skeleton">Starter Template</a></li>
-                  <li><a class="dropdown-item" href="/v1/en/docs/getting-started/installation/git-submodule/">Git Submodule</a></li>
-                  <li><a class="dropdown-item" href="/v1/en/docs/getting-started/installation/hugo-module/">Hugo Module</a></li>
-                </ul>
+                <div class="dropdown me-2">
+                    <a class="btn btn-success dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
+                    Installation
+                    </a>
+                
+                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                    <li><a class="dropdown-item" target="_blank" href="https://github.com/razonyang/hugo-theme-bootstrap-skeleton">Starter Template</a></li>
+                    <li><a class="dropdown-item" href="/v1/en/docs/getting-started/installation/git-submodule/">Git Submodule</a></li>
+                    <li><a class="dropdown-item" href="/v1/en/docs/getting-started/installation/hugo-module/">Hugo Module</a></li>
+                    </ul>
+                </div>
             </div>
         </div>
+        {{- partial "features" $data.features -}}
     </div>
-    {{- partial "features" $data.features -}}
 </div>
 {{ end }}

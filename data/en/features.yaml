@@ -60,4 +60,20 @@
 
 - title: PWA
   icon: <i class="fas fa-2x fa-fw fa-rocket"></i>
-  description: Make your site installable, offline available. 
+  description: Make your site installable, offline available.
+
+- title: Images Processing
+  icon: <i class="fas fa-2x fa-fw fa-images"></i>
+  description: Resize, align, crop, fill, fit and apply filters on images.
+
+- title: Menus
+  icon: <i class="fas fa-2x fa-fw fa-bars"></i>
+  description: Main and footer menus.
+
+- title: FAQ
+  icon: <i class="fas fa-2x fa-fw fa-question-circle"></i>
+  description: FAQ page.
+
+- title: Code Toggle
+  icon: <i class="fas fa-2x fa-fw fa-code"></i>
+  description: Generate configuration code in multiple formats, `YAML`, `TOML` and `JSON` are supported.

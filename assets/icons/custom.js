@@ -4,6 +4,7 @@ import {
     faBook,
     faGripLinesVertical,
     faIcons,
+    faImages,
     faPlus,
     faRocket,
     faTachometerAlt,
@@ -14,7 +15,7 @@ import {
 } from '@fortawesome/free-brands-svg-icons';
 
 const icons = [
-    faArchive, faArrowLeft, faBook, faGripLinesVertical, faIcons, faPlus, faRocket, faTachometerAlt,
+    faArchive, faArrowLeft, faBook, faGripLinesVertical, faIcons, faImages, faPlus, faRocket, faTachometerAlt,
     // faAddressBook,
     faBootstrap, faCss3, faSass,
 ];
