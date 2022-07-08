@@ -2,6 +2,7 @@ main:
   - identifier: home
     url: https://hbs.razonyang.com/
     pre: <i class="fas fa-home"></i>
+    post: <span class="d-lg-none ms-1">Home</span>
     weight: 1
 
   - name: Docs
@@ -13,31 +14,6 @@ main:
   - name: v0
     parent: docs
     url: /v0/
-
-  - identifier: donate
-    name: Donate
-    weight: 90
-  - parent: donate
-    name: Open Collective
-    url: 'https://opencollective.com/hbs'
-    weight: 1
-  - parent: donate
-    name: Paypal
-    url: 'https://paypal.me/razonyang'
-    pre: <i class="fab fa-fw fa-paypal me-1"></i>
-    weight: 2
-  - parent: donate
-    name: Alipay
-    url: >-
-      https://raw.githubusercontent.com/razonyang/blog/main/static/images/reward/alipay.webp
-    pre: <i class="fab fa-fw fa-alipay me-1"></i>
-    weight: 3
-  - parent: donate
-    name: WeChat
-    url: >-
-      https://raw.githubusercontent.com/razonyang/blog/main/static/images/reward/wechat.webp
-    pre: <i class="fab fa-fw fa-weixin me-1"></i>
-    weight: 4
 
   - name: Support
     identifier: support
