@@ -8,3 +8,6 @@ outputs:
   home:
    - HTML
    - RSS
+
+module:
+  # proxy: https://goproxy.cn/
