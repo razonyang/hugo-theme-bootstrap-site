@@ -16,6 +16,8 @@ pwa:
 topAppBar:
   social:
     github: razonyang/hugo-theme-bootstrap
+    patreon: razonyang
+    paypal: razonyang
 
 docsearch:
   appId: QJSHIZ7V63
