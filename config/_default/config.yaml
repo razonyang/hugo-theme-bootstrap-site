@@ -9,5 +9,5 @@ outputs:
    - HTML
    - RSS
 
-module:
+# module:
   # proxy: https://goproxy.cn/
