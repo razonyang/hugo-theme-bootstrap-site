@@ -5,16 +5,6 @@ main:
     post: <span class="d-lg-none ms-1">Home</span>
     weight: 1
 
-  - name: Docs
-    identifier: docs
-    weight: 100
-  - name: Latest(v1)
-    parent: docs
-    url: /v1/
-  - name: v0
-    parent: docs
-    url: /v0/
-
   - name: Support
     identifier: support
     weight: 80
