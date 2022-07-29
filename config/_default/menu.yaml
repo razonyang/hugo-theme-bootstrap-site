@@ -1,25 +1,82 @@
 main:
   - identifier: home
+    name: Home
     url: https://hbs.razonyang.com/
-    pre: <i class="fas fa-home"></i>
-    post: <span class="d-lg-none ms-1">Home</span>
+    pre: <i class="fas fa-fw fa-home me-1"></i>
     weight: 1
+    
+  - identifier: blog
+    name: Blog
+    pre: <i class="fas fa-fw fa-blog me-1"></i>
+    weight: 2
+  - name: Archives
+    url: https://hbs.razonyang.com/v1/en/archives/
+    pre: <i class="fas fa-fw fa-archive me-1"></i>
+    weight: 1
+    parent: blog
+  - name: Series
+    url: https://hbs.razonyang.com/v1/en/series/
+    pre: <i class="fas fa-fw fa-columns me-1"></i>
+    weight: 2
+    parent: blog
+  - name: Categories
+    url: https://hbs.razonyang.com/v1/en/categories/
+    pre: <i class="fas fa-fw fa-folder me-1"></i>
+    weight: 3
+    parent: blog
+  - name: Tags
+    url: https://hbs.razonyang.com/v1/en/tags/
+    pre: <i class="fas fa-fw fa-tags me-1"></i>
+    weight: 4
+    parent: blog
+  - name: Authors
+    url: https://hbs.razonyang.com/v1/en/authors/
+    pre: <i class="fas fa-fw fa-user me-1"></i>
+    weight: 5
+    parent: blog
 
   - name: Support
     identifier: support
+    pre: <i class="fas fa-fw fa-info-circle me-1"></i>
     weight: 80
+  - name: Repository
+    identifier: repository
+    parent: support
+    url: 'https://github.com/razonyang/hugo-theme-bootstrap/'
+    pre: <i class="fab fa-fw fa-github me-1"></i>
+    weight: 1
   - name: Discussions
     identifier: discussions
     parent: support
     url: 'https://github.com/razonyang/hugo-theme-bootstrap/discussions/new'
-    weight: 1
+    pre: <i class="fas fa-fw fa-comments me-1"></i>
+    weight: 2
   - name: Bug Report
-    identifier: repository
+    identifier: bug-report
     parent: support
     url: 'https://github.com/razonyang/hugo-theme-bootstrap/issues/new?template=bug_report.md'
-    weight: 2
+    pre: <i class="fas fa-fw fa-bug me-1"></i>
+    weight: 3
   - name: Features Request
     identifier: feature-request
     parent: support
     url: https://github.com/razonyang/hugo-theme-bootstrap/issues/new?template=feature_request.md
-    weight: 3
+    pre: <i class="fas fa-fw fa-lightbulb me-1"></i>
+    weight: 4
+  - identifier: support-divider
+    parent: support
+    params:
+      divider: true
+    weight: 5
+  - name: Get Involved
+    identifier: get-involved
+    parent: support
+    url: https://hbs.razonyang.com/v1/en/docs/get-involved/
+    pre: <i class="fas fa-fw fa-handshake me-1"></i>
+    weight: 6
+  - name: FAQ
+    identifier: faq
+    parent: support
+    url: https://hbs.razonyang.com/v1/en/faq/
+    pre: <i class="fas fa-fw fa-info-circle me-1"></i>
+    weight: 7
