@@ -4,7 +4,7 @@ main:
     url: https://hbs.razonyang.com/
     pre: <i class="fas fa-fw fa-home me-1"></i>
     weight: 1
-    
+
   - identifier: blog
     name: Blog
     pre: <i class="fas fa-fw fa-blog me-1"></i>
@@ -42,25 +42,25 @@ main:
   - name: Repository
     identifier: repository
     parent: support
-    url: 'https://github.com/razonyang/hugo-theme-bootstrap/'
+    url: "https://github.com/razonyang/hugo-theme-bootstrap/"
     pre: <i class="fab fa-fw fa-github me-1"></i>
     weight: 1
   - name: Discussions
     identifier: discussions
     parent: support
-    url: 'https://github.com/razonyang/hugo-theme-bootstrap/discussions/new'
+    url: "https://github.com/razonyang/hugo-theme-bootstrap/discussions/new"
     pre: <i class="fas fa-fw fa-comments me-1"></i>
     weight: 2
   - name: Bug Report
     identifier: bug-report
     parent: support
-    url: 'https://github.com/razonyang/hugo-theme-bootstrap/issues/new?template=bug_report.md'
+    url: "https://github.com/razonyang/hugo-theme-bootstrap/issues/new?template=bug_report.yml"
     pre: <i class="fas fa-fw fa-bug me-1"></i>
     weight: 3
   - name: Features Request
     identifier: feature-request
     parent: support
-    url: https://github.com/razonyang/hugo-theme-bootstrap/issues/new?template=feature_request.md
+    url: https://github.com/razonyang/hugo-theme-bootstrap/issues/new?template=feature_request.yml
     pre: <i class="fas fa-fw fa-lightbulb me-1"></i>
     weight: 4
   - identifier: support-divider
