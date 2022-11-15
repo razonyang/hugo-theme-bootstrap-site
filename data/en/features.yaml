@@ -1,17 +1,21 @@
 - title: Fast
-  icon: <i class="fas fa-2x fa-fw fa-tachometer-alt"></i>
+  icon: <i class="fas fa-2x fa-fw fa-tachometer-alt text-success"></i>
   description: Google [PageSpeed Insights](https://pagespeed.web.dev/report?url=https://hbs-skeleton.netlify.app/) score is over 90.
 
 - title: Icons
-  icon: <i class="fas fa-2x fa-fw fa-icons"></i>
+  icon: <i class="fas fa-2x fa-fw fa-icons text-danger"></i>
   description: Custom Font Awesome Icons set.
 
 - title: Responsive
-  icon: <i class="fab fa-2x fa-fw fa-bootstrap"></i>
+  icon: '<i class="fab fa-2x fa-fw fa-bootstrap" style="color: #7633f9;"></i>'
   description: Built on top of Bootstrap 5.
 
+- title: PWA
+  icon: <i class="fas fa-2x fa-fw fa-rocket text-danger"></i>
+  description: Make your site installable, offline available.
+
 - title: Search
-  icon: <i class="fas fa-2x fa-fw fa-search"></i>
+  icon: '<i class="fas fa-2x fa-fw fa-search" style="color: darkblue;"></i>'
   description: Local search and DocSearch are supported.
 
 - title: RTL
@@ -19,7 +23,7 @@
   description: Support right-to-left writing languages.
 
 - title: Hugo Pipes
-  icon: <i class="fas fa-2x fa-fw fa-grip-lines-vertical"></i>
+  icon: <i class="fas fa-2x fa-fw fa-grip-lines-vertical text-warning"></i>
   description: Build site with the powerful Hugo pipes.
 
 - title: PurgeCSS
@@ -27,11 +31,11 @@
   description: Remove unused CSS.
   
 - title: I18N
-  icon: <i class="fas fa-2x fa-fw fa-globe"></i>
+  icon: '<i class="fas fa-2x fa-fw fa-globe" style="color: skyblue;"></i>'
   description: English, Simplified Chinese, Traditional Chinese, Russian, German, French etc.
   
 - title: SASS/SCSS
-  icon: <i class="fab fa-2x fa-fw fa-sass"></i>
+  icon: '<i class="fab fa-2x fa-fw fa-sass" style="color: #c66394;"></i>'
   description: Custom theme and Bootstrap via SASS/SCSS variables.
 
 - title: Archives
@@ -39,7 +43,7 @@
   description: Support archives pages.
 
 - title: Code Block Assistant
-  icon: <i class="fas fa-2x fa-fw fa-code"></i>
+  icon: <i class="fas fa-2x fa-fw fa-code text-warning"></i>
   description: Copy code, line number, line wrap and expand.
 
 - title: Light/Dark Mode
@@ -47,33 +51,29 @@
   description: Allow switching to light, dark or auto mode.
 
 - title: Comments Engine
-  icon: <i class="fas fa-2x fa-fw fa-comments"></i>
-  description: Support Disqus and Utterances, it's easy to customize comments engine.
+  icon: <i class="fas fa-2x fa-fw fa-comments text-success"></i>
+  description: Support Disqus, Utterances, Giscus and Staticman, it's easy to customize comments engine.
 
 - title: Contact Form
   icon: <i class="fas fa-2x fa-fw fa-envelope"></i>
   description: Compatible with most of the backend endpoints, such as Netlify Form, GetForm.
 
 - title: Hooks
-  icon: <i class="fas fa-2x fa-fw fa-plus"></i>
+  icon: <i class="fas fa-2x fa-fw fa-plus text-success"></i>
   description: Provides ability to add custom code on page.
 
-- title: PWA
-  icon: <i class="fas fa-2x fa-fw fa-rocket"></i>
-  description: Make your site installable, offline available.
-
 - title: Images Processing
-  icon: <i class="fas fa-2x fa-fw fa-images"></i>
+  icon: <i class="fas fa-2x fa-fw fa-images text-success"></i>
   description: Resize, align, crop, fill, fit and apply filters on images.
 
 - title: Menus
-  icon: <i class="fas fa-2x fa-fw fa-bars"></i>
+  icon: <i class="fas fa-2x fa-fw fa-bars text-primary"></i>
   description: Main and footer menus.
 
 - title: FAQ
-  icon: <i class="fas fa-2x fa-fw fa-question-circle"></i>
+  icon: <i class="fas fa-2x fa-fw fa-question-circle text-info"></i>
   description: FAQ page.
 
 - title: Code Toggle
-  icon: <i class="fas fa-2x fa-fw fa-code"></i>
+  icon: <i class="fas fa-2x fa-fw fa-code text-warning"></i>
   description: Generate configuration code in multiple formats, `YAML`, `TOML` and `JSON` are supported.
