@@ -60,6 +60,7 @@ main:
     url: "https://github.com/razonyang/hugo-theme-bootstrap/discussions/new"
     params:
       icon: <i class="fas fa-fw fa-comments text-success"></i>
+      description: Ask and discuss questions with others.
     weight: 2
   - name: Bug Report
     identifier: bug-report
@@ -67,6 +68,7 @@ main:
     url: "https://github.com/razonyang/hugo-theme-bootstrap/issues/new?template=bug_report.yml"
     params:
       icon: <i class="fas fa-fw fa-bug text-danger"></i>
+      description: Suggest new or updated features.
     weight: 3
   - name: Features Request
     identifier: feature-request
@@ -74,6 +76,7 @@ main:
     url: https://github.com/razonyang/hugo-theme-bootstrap/issues/new?template=feature_request.yml
     params:
       icon: <i class="fas fa-fw fa-lightbulb text-warning"></i>
+      description: Tell us about a bug or issue.
     weight: 4
   - identifier: support-divider
     parent: support
