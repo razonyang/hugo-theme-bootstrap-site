@@ -46,6 +46,7 @@ main:
     identifier: support
     params:
       icon: <i class="fas fa-fw fa-info-circle text-info"></i>
+      description: The HBS Support Community.
     weight: 80
   - name: Repository
     identifier: repository
