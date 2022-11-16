@@ -7,6 +7,7 @@ import {
     faCheckSquare,
     faGripLinesVertical,
     faHandshake,
+    faHeart,
     faIcons,
     faImages,
     faLightbulb,
@@ -20,7 +21,8 @@ import {
 } from '@fortawesome/free-brands-svg-icons';
 
 const icons = [
-    faArchive, faArrowLeft, faBlog, faBook, faBug, faCheckSquare, faGripLinesVertical, faHandshake, faIcons, faImages, faLightbulb, faPlus, faRocket, faTachometerAlt,
+    faArchive, faArrowLeft, faBlog, faBook, faBug, faCheckSquare, faGripLinesVertical, faHandshake,
+    faHeart, faIcons, faImages, faLightbulb, faPlus, faRocket, faTachometerAlt,
     // faAddressBook,
     faBootstrap, faCss3, faSass,
 ];
