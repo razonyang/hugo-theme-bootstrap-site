@@ -93,7 +93,7 @@ main:
     params:
       icon: <i class="fas fa-fw fa-handshake"></i>
     weight: 6
-  - name: FAQ
+  - name: FAQs
     identifier: faq
     parent: support
     url: https://hbs.razonyang.com/v1/en/faq/
