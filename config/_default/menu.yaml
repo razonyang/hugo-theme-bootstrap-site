@@ -3,50 +3,52 @@ main:
     name: Home
     url: https://hbs.razonyang.com/
     params:
-      icon: <i class="fas fa-fw fa-home text-success"></i>
+      icon: <i class="fas fa-fw fa-home"></i>
     weight: 1
 
   - identifier: blog
     name: Blog
     params:
-      icon: <i class="fas fa-fw fa-blog text-warning"></i>
+      icon: <i class="fas fa-fw fa-blog"></i>
     weight: 2
   - name: Archives
     url: https://hbs.razonyang.com/v1/en/archives/
     params:
-      icon: <i class="fas fa-fw fa-archive"></i>
+      icon: <i class="fas fa-fw fa-archive text-primary"></i>
     weight: 1
     parent: blog
   - name: Series
     url: https://hbs.razonyang.com/v1/en/series/
     params:
-      icon: <i class="fas fa-fw fa-columns"></i>
+      icon: <i class="fas fa-fw fa-columns text-info"></i>
     weight: 2
     parent: blog
   - name: Categories
     url: https://hbs.razonyang.com/v1/en/categories/
     params:
-      icon: <i class="fas fa-fw fa-folder"></i>
+      icon: <i class="fas fa-fw fa-folder text-warning"></i>
+      description: 'List of Categories'
     weight: 3
     parent: blog
   - name: Tags
     url: https://hbs.razonyang.com/v1/en/tags/
     params:
-      icon: <i class="fas fa-fw fa-tags"></i>
+      icon: <i class="fas fa-fw fa-tags text-success"></i>
+      description: 'List of Tags'
     weight: 4
     parent: blog
   - name: Authors
     url: https://hbs.razonyang.com/v1/en/authors/
     params:
-      icon: <i class="fas fa-fw fa-user"></i>
+      icon: <i class="fas fa-fw fa-user text-danger"></i>
     weight: 5
     parent: blog
 
   - name: Support
     identifier: support
     params:
-      icon: <i class="fas fa-fw fa-info-circle text-info"></i>
-      description: The HBS Support Community.
+      icon: <i class="fas fa-fw fa-info-circle"></i>
+      description: The HBS Support Community
     weight: 80
   - name: Repository
     identifier: repository
