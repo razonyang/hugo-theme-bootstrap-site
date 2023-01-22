@@ -26,3 +26,5 @@ docsearch:
 
 utterances:
   repo: razonyang/hugo-theme-bootstrap-site
+
+searchBar: false
